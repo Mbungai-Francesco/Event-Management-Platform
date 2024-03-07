@@ -1,0 +1,10 @@
+.side_bar .menu ul li:nth-child(1),.min_side .menu ul li:nth-child(1){
+  background-color: white;
+  font-family: "Kumbh Sans Light";
+  color: #03720B;
+}
+.side_bar .menu ul li:nth-child(1) a{
+  border: 0;
+  border-left: 2px white solid;
+  padding-left: 1em;
+}

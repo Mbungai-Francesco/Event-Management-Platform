@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* transition: 0.5s ease-in; */
+  /* box-sizing: border-box; */
+}
+body{
+  height: 100vh;
+  display: flex;
+}
+.side_bar{
+  width: 16%;
+  height: inherit;
+  background-color: #03720B;
+  padding: 0 2em;
+  color: white;
+  font-family: "Kumbh Sans ExtraLight";
+  position: relative;
+  /* transition: 0.5s ease-in; */
+}
+.side_bar h1{
+  text-align: right;
+  font-weight: 300;
+  font-family: "Lucida Calligraphy";
+  margin-bottom: 1em;
+}
+.side_bar h1 span{
+  font-size: 1.3em;
+}
+.side_bar .menu{
+  height: 60vh;
+}
+.side_bar .menu h3{
+  padding-bottom: 1em;
+  margin: 0 0 0.5em 1em;
+  border: 0;
+  border-bottom: 2px white solid;
+}
+.side_bar .menu ul{
+  list-style: none;
+}
+.side_bar .menu ul:hover > li:not(:hover){
+  padding: 1em;
+  background-color: transparent;
+  width: 16em;
+  border-radius: 5px;
+  font-weight: 700;
+  color: white;
+}
+.side_bar .menu ul li{
+  padding: 1em;
+  background-color: transparent;
+  width: 16em;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.side_bar .menu ul li:hover{
+  background-color: white;
+  font-family: "Kumbh Sans Light";
+  color: #03720B;
+}
+/* .menu ul li:hover > a{
+  color: #03720B;
+} */
+.side_bar .notLast{
+  margin-bottom: 0.3em;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: inherit;
+  width: inherit;
+  display: inline-block;
+}
+.side_bar ul li a:nth-child(2){
+  display: none;
+}
+.side_bar .logout{
+  width: 100%;
+  padding: 0.5em 0;
+  background-color: #FDDA24;
+  text-align: center;
+  border-radius: 2px;
+}
+.side_bar .logout:hover{
+  background-color: #c0a107;
+}
+.side_bar + div .list{
+  width: 30%;
+}
+.side_bar + div .details{
+  width: 67%;
+}
+.main_right{
+  width: 90%;
+  height: 100vh;
+}
+.top_header{
+  width: 97.4%;
+  height: 8.519vh;
+  background-color: #EBF7EC;
+  padding: 1em 1em;
+  display: flex;
+  font-family: "Kumbh Sans Light";
+}
+.top_left{
+  display: flex;
+  width: 70%;
+  /* background-color: #03720B; */
+  justify-content: space-between;
+}
+.logo svg{
+  height: 8.5vh;
+  width: fit-content;
+}
+.top_left input{
+  height: 3.5vh;
+  align-self: center;
+  width: 18em;
+  border: #64B841 solid 3px;
+  border-radius: 3px;
+  padding-left: 3em;
+}
+.top_left input::placeholder{
+  color: black;
+  font-family: "Kumbh Sans Light";
+}
+.top_right{
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  width: 27%;
+}
+.self_info{
+  display: flex;
+}
+.top_right p{
+  align-self: center;
+}
+.top_right img{
+  width: 2.5em;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  margin-left: 1em;
+}
+main{
+  width: 96.1%;
+  height: 81vh;
+  /* background-color: antiquewhite; */
+  padding: 1em 1.5em;
+  font-family: "Kumbh Sans Medium";
+}
+.main_dash{
+  display: flex;
+}
+.main_dash h1{
+  width: fit-content;
+  font-weight: 100;
+  text-wrap:nowrap;
+}
+.main_dash span{
+  width: 90%;
+  height: 10px;
+  border: 0;
+  border-bottom: 4px solid #658A68;
+  /* background-color: #658A68; */
+  align-self: center;
+  margin-top: 0.7em;
+  margin-left: 5px;
+}
