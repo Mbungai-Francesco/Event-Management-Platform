@@ -167,3 +167,26 @@ main{
   margin-top: 0.7em;
   margin-left: 5px;
 }
+.btn{
+  background-color: #FDDA24;
+  border: 0;
+  border-radius: 10px;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  padding: .2em;
+  padding-right: 0.5em;
+  color: white;
+}
+.btn:hover{
+  background-color: #c0a107;
+}
+.btn img{
+  width: 1.2em;
+}
+.btn p{
+  margin-left: 0.3em;
+}
+.box{
+  box-sizing: border-box;
+}

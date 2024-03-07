@@ -9,12 +9,12 @@
   padding-left: 1em;
 }
 main{
-  background-color: pink;
+  /* background-color: pink; */
 }
 .events{
   width: 100%;
   height: 75.9vh;
-  background-color: bisque;
+  /* background-color: bisque; */
   display: flex;
   padding-top: 1em;
   justify-content: space-between;
@@ -22,12 +22,12 @@ main{
 .list{
   width: 25%;
   height: inherit;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
 }
 .details{
   width: 72%;
   height: inherit;
-  background-color:aqua;
+  /* background-color:aqua; */
 }
 .list_top{
   font-size: 1em;
@@ -44,27 +44,8 @@ main{
   font-family: "Kumbh Sans ExtraLight";
   font-weight: bold;
 }
-.list_top button{
-  background-color: #FDDA24;
-  border: 0;
-  border-radius: 10px;
-  font-size: 1em;
-  display: flex;
-  align-items: center;
-  padding: .2em;
-  padding-right: 0.5em;
-  color: white;
-}
-.list_top button:hover{
-  background-color: #c0a107;
-}
-.list_top button img{
-  width: 1.2em;
-}
-.list_top button p{
-  margin-left: 0.3em;
-}
 .list_bottom{
+  /* background-color: black; */
   list-style: none;
   h3,p{
     font-size: 0.85em;
@@ -85,6 +66,12 @@ main{
     height: fit-content;
     align-self:flex-end;
   }
+  .list_bottom_left + img{
+    width: 1.3em;
+    background-color: red;
+    padding: 0.5em;
+    border-radius: 50%;
+  }
   .text{
     margin-left: 2em;
   }
@@ -103,14 +90,57 @@ main{
   display: flex;
   justify-content: space-between;
   height: 72vh;
+  .btn{
+    width: 30%;
+    justify-content: space-around;
+    border-radius: 5px;
+    padding-top: 0.4em ;
+    padding-bottom: 0.4em ;
+  }
+}
+.ins{
+  padding: 0.2em 1em;
+  border: 1px black solid;
+  margin-bottom: 1em;
+  margin-top: 0.3em;
+  border-radius: 5px;
 }
 .details_left{
   width: 48.5%;
   height: inherit;
-  background-color: coral;
+  /* background-color: coral; */
+  display: flex;
+  flex-direction: column;
+  padding-top: 1em;
+  box-sizing: border-box;
+  p:nth-child(10){
+    height: 25vh;
+    /* color: #03720B; */
+  }
 }
 .details_right{
   width: 48.5%;
   height: inherit;
-  background-color: coral;
+  /* background-color: coral; */
+  display: flex;
+  flex-direction: column;
+  padding-top: 1em;
+  box-sizing: border-box;
+  
+  .time{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .time div{
+    width: 48%;
+  }
+  p:nth-child(10){
+    height: 25vh;
+    /* color: #03720B; */
+  }
+  img{
+    width: 60%;
+    border-radius: 5px;
+  }
 }
